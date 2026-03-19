@@ -19,9 +19,9 @@ A lightweight **Edge AI (MEC-based)** real-time video analytics system that perf
 ## 🛠️ Tech Stack
 
 - Python  
-- OpenCV  
+- OpenCV (`cv2`)  
 - Ultralytics YOLOv8  
-- IP Webcam (Android app)
+- IP Webcam (Android app)  
 
 ---
 
@@ -42,14 +42,8 @@ A lightweight **Edge AI (MEC-based)** real-time video analytics system that perf
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/mec-video-analytics.git
-cd mec-video-analytics
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
+git clone https://github.com/gyerra/MEC-Based-Real-Time-Video-Analytics-Using-IP-Webcam-and-YOLOv8.git
+cd MEC-Based-Real-Time-Video-Analytics-Using-IP-Webcam-and-YOLOv8
 ```
 
 ---
@@ -59,7 +53,7 @@ pip install -r requirements.txt
 Run the script:
 
 ```bash
-python main.py
+python mec_video_detection.py
 ```
 
 Choose input source:
@@ -105,8 +99,6 @@ http://<your-ip>:8080/video
 
 ## 📦 Requirements
 
-Example `requirements.txt`:
-
 ```
 opencv-python
 ultralytics
@@ -122,3 +114,6 @@ ultralytics
 - Add alert system (email/SMS)  
 
 ---
+## Acknowledgements
+- Ultralytics YOLOv8
+- OpenCV Community
