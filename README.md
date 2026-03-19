@@ -29,9 +29,10 @@ A lightweight **Edge AI (MEC-based)** real-time video analytics system that perf
 
 ```
 .
-├── main.py
-├── requirements.txt
-└── README.md
+├── .gitignore              # Specifies files to ignore in Git
+├── README.md               # Project documentation
+├── mec_video_detection.py  # Main script for video detection
+└── yolov8n.pt              # Pre-trained YOLOv8 model weights
 ```
 
 ---
